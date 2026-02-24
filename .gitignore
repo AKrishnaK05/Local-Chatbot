@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+service_account.json
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Hugging Face Cache (optional, but usually good to ignore local model storage if it's in the project dir)
+.cache/
